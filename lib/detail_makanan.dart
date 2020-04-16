@@ -51,7 +51,7 @@ class _DetailMakananState extends State<DetailMakanan> {
                 child: Center(
                   child: Icon(
                     Icons.favorite_border,
-                    color: Color(0xFF003AAB).withOpacity(0.6),
+                    color: Colors.cyan.withOpacity(0.6),
                     size: 30,
                   ),
                 ),
@@ -63,7 +63,7 @@ class _DetailMakananState extends State<DetailMakanan> {
                 height: 60,
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10.0),
-                    color: Colors.orange,
+                    color: Colors.cyan,
                     boxShadow: [
                       BoxShadow(
                         color: Colors.black26,
@@ -73,7 +73,7 @@ class _DetailMakananState extends State<DetailMakanan> {
                     ]
                 ),
                 child: Center(
-                  child: Text('Book now', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,
+                  child: Text('Pesan', style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold,
                       color: Colors.white),),
                 ),
               ),
@@ -105,11 +105,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -134,11 +134,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -163,11 +163,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -192,11 +192,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -221,11 +221,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -250,11 +250,11 @@ class _DetailMakananState extends State<DetailMakanan> {
                     child: Center(
                       child: Icon(Icons.directions_car,
                         size: 20.0,
-                        color: Color(0xFF003AAB).withOpacity(0.8),),
+                        color: Colors.cyan.withOpacity(0.8),),
                     ),
                   ),
                   SizedBox(height: 10.0,),
-                  Text('parking', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
+                  Text('Parkir', style: TextStyle(fontSize: 12.0, fontWeight: FontWeight.w500),),
                 ],
               ),
             ),
@@ -266,7 +266,7 @@ class _DetailMakananState extends State<DetailMakanan> {
   Padding _buildTitleAnimities() {
     return Padding(
           padding: const EdgeInsets.only(left: 20.0),
-          child: Text('Aminities', style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.w600),),
+          child: Text('Fasilitas', style: TextStyle(fontSize: 26.0, fontWeight: FontWeight.w600),),
         );
   }
 
@@ -300,7 +300,7 @@ class _DetailMakananState extends State<DetailMakanan> {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.only(bottomLeft: Radius.circular(20.0),
                     bottomRight: Radius.circular(20.0)),
-                color: Color(0xFFFFAC60),
+                color: Colors.cyan,
               ),
             ),
             Positioned(
